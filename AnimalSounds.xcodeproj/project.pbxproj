@@ -12,6 +12,10 @@
 		F443C6791F127D7F003ECD52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F443C6771F127D7F003ECD52 /* Main.storyboard */; };
 		F443C67B1F127D7F003ECD52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F443C67A1F127D7F003ECD52 /* Assets.xcassets */; };
 		F443C67E1F127D7F003ECD52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F443C67C1F127D7F003ECD52 /* LaunchScreen.storyboard */; };
+		F443C6891F12B9FB003ECD52 /* meow.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F443C6851F12B9FB003ECD52 /* meow.m4a */; };
+		F443C68A1F12B9FB003ECD52 /* moo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F443C6861F12B9FB003ECD52 /* moo.m4a */; };
+		F443C68B1F12B9FB003ECD52 /* SimpleSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = F443C6871F12B9FB003ECD52 /* SimpleSound.swift */; };
+		F443C68C1F12B9FB003ECD52 /* woof.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F443C6881F12B9FB003ECD52 /* woof.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		F443C67A1F127D7F003ECD52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F443C67D1F127D7F003ECD52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F443C67F1F127D7F003ECD52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F443C6851F12B9FB003ECD52 /* meow.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = meow.m4a; sourceTree = "<group>"; };
+		F443C6861F12B9FB003ECD52 /* moo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = moo.m4a; sourceTree = "<group>"; };
+		F443C6871F12B9FB003ECD52 /* SimpleSound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleSound.swift; sourceTree = "<group>"; };
+		F443C6881F12B9FB003ECD52 /* woof.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = woof.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,10 @@
 		F443C6721F127D7F003ECD52 /* AnimalSounds */ = {
 			isa = PBXGroup;
 			children = (
+				F443C6851F12B9FB003ECD52 /* meow.m4a */,
+				F443C6861F12B9FB003ECD52 /* moo.m4a */,
+				F443C6871F12B9FB003ECD52 /* SimpleSound.swift */,
+				F443C6881F12B9FB003ECD52 /* woof.m4a */,
 				F443C6731F127D7F003ECD52 /* AppDelegate.swift */,
 				F443C6751F127D7F003ECD52 /* ViewController.swift */,
 				F443C6771F127D7F003ECD52 /* Main.storyboard */,
@@ -124,6 +136,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F443C6891F12B9FB003ECD52 /* meow.m4a in Resources */,
+				F443C68C1F12B9FB003ECD52 /* woof.m4a in Resources */,
+				F443C68A1F12B9FB003ECD52 /* moo.m4a in Resources */,
 				F443C67E1F127D7F003ECD52 /* LaunchScreen.storyboard in Resources */,
 				F443C67B1F127D7F003ECD52 /* Assets.xcassets in Resources */,
 				F443C6791F127D7F003ECD52 /* Main.storyboard in Resources */,
@@ -137,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F443C68B1F12B9FB003ECD52 /* SimpleSound.swift in Sources */,
 				F443C6761F127D7F003ECD52 /* ViewController.swift in Sources */,
 				F443C6741F127D7F003ECD52 /* AppDelegate.swift in Sources */,
 			);
